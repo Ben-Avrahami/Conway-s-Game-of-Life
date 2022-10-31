@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyProjectController">
+   <children>
+      <Canvas fx:id="canvas" height="979.0" width="1255.0" />
+      <Button mnemonicParsing="false" onAction="#btnPressed" text="Next Generation" />
+   </children>
+</VBox>
