@@ -2,7 +2,12 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
-
+/**
+ * A Java implementation of Conway's Game of Life.
+ * This Class will hold the controller methods used for javaFX with scene builder.
+ * @author Ben Avrahami
+ *
+ */
 public class MyProjectController {
 
 	@FXML
