@@ -12,8 +12,7 @@ public class MyProject extends Application{
 		Scene scene = new Scene(root);
 		stage.setTitle("Game Of Life");//title of the window
 		stage.setScene(scene);
-		stage.setFullScreen(true);//will set the window to full screen
-
+		stage.setResizable(false);//makes the windows not resizeable
 		stage.show();
 	}
 	public static void main(String[] args) {
